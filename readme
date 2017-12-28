@@ -1,0 +1,15 @@
+miw-eureka注册中心， 注册中心ui地址： http://localhost:9090/
+
+miw-eureka-service服务提供、
+miw-eureka-consumer消费者 ， 测试地址 http://localhost:9092/consumer3
+
+服务降级  测试 http://localhost:9092/down
+
+miw-config配置中心服务，测试地址 http://localhost:9092/get
+miw-config-file 配置服务文件中心
+
+miw-hystrix-dashboard服务降级UI监控 界面 
+服务降级监控界面  http://localhost:9094/hystrix 需要先访问 http://localhost:9092/down
+服务降级监控界面输入框内输入 http://localhost:9092/hystrix.stream
+
+miw-monitor服务器监控 UI界面，监控日志，动态调整日志级别，jvm、堆栈，线程，环境，健康,    测试地址  http://localhost:9095/
