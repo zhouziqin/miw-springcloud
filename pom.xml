@@ -26,7 +26,6 @@
 		<module>miw-eureka</module>
 		<module>miw-eureka-service</module>
 		<module>miw-eureka-consumer</module>
-		<module>miw-consumer-ribbon</module>
 		<module>miw-config</module>
 		<module>miw-config-file</module>
 		<module>miw-hystrix-dashboard</module>
