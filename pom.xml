@@ -30,5 +30,6 @@
 		<module>miw-config-file</module>
 		<module>miw-hystrix-dashboard</module>
 		<module>miw-monitor</module>
+		<module>miw-sleuth</module>
 	</modules>
 </project>
